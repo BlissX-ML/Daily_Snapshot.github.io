@@ -55,8 +55,8 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  Git_related:
+  git_related:
     output: true
-    permalink: /Git_related/:title/
+    permalink: /git_related/:title/
 
 
