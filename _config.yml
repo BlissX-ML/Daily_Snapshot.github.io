@@ -55,6 +55,6 @@ plugins:
 collections:
   git_related:
     output: true
-    permalink: /git_related/:name/
+    permalink: /git_related/:slug/
 
 
