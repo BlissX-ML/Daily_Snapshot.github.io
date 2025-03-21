@@ -28,9 +28,26 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
+
+sass:
+  sass_dir: _sass 
+  style: compressed
+
+assets:
+  css_dir: assets
+
 plugins:
+  - jekyll-sass-converter
   - jekyll-feed
+  - jekyll-seo-tag
+
+
+collections:
+  git_related:
+    output: true
+    permalink: /git_related/:slug/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,10 +68,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-collections:
-  git_related:
-    output: true
-    permalink: /git_related/:slug/
-
-
