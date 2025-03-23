@@ -4,7 +4,7 @@ title:  "Jekyll 项目创建"
 date:   2025-03-20 20:04:39 +0800
 slug: "Jekyll-project-create"
 categories: jekyll update
-permalink: /git_related/Jekyll-project-create/
+permalink: /Jekyll-project-create/
 ---
 
 # Abstract
@@ -227,85 +227,68 @@ plugins:
     - plugins：你需要的插件，记得在 Gemfile 中也添加对应的 `gem`，例如 `jekyll-feed`。插件需要在 Gemfile 中声明并执行 `bundle install` 安装。
 
 
-🌟 四、使用 Git 和 GitHub
+### 四、使用 Git 和 GitHub
 1. 安装 Git
-bash
-复制
-编辑
+```bash
 sudo apt install git
+```
+
 2. 配置 Git 用户信息
-bash
-复制
-编辑
+```bash
 git config --global user.name "你的GitHub用户名"
 git config --global user.email "你的GitHub邮箱"
-3. 初始化 Git 仓库
-bash
-复制
-编辑
-git init
-4. 创建 .gitignore 文件（避免上传不必要的文件）
-内容示例：
+```
 
-csharp
-复制
-编辑
-_site/
-.jekyll-cache/
-Gemfile.lock
-5. 提交网站代码到本地仓库
-bash
-复制
-编辑
+3. 初始化 Git 仓库
+```bash
+git init
+```
+
+4. 提交网站代码到本地仓库
+```bash
 git add .
 git commit -m "Initial commit"
-🌟 五、上传到 GitHub
+```
+
+### 五、上传到 GitHub
 1. 在 GitHub 上创建新的仓库
-登陆 GitHub
-
-点击右上角的 + 号 > New repository
-
-填写仓库名称，比如：你的GitHub用户名.github.io
-
-设置为 Public 或 Private
-
-点击 Create repository
+- 登陆 GitHub
+- 点击右上角的 + 号 > New repository
+- 填写仓库名称，比如：你的GitHub用户名.github.io
+- 设置为 Public 或 Private（注意无需选择 Create Reandme.md ）
+- 点击 Create repository
 
 2. 添加远程仓库
-bash
-复制
-编辑
+```bash
 git remote add origin https://github.com/你的GitHub用户名/你的仓库名.git
+```
+
 3. 推送到远程仓库
-bash
-复制
-编辑
+```bash
 git branch -M main
 git push -u origin main
-🌟 六、配置 GitHub Pages
-打开你的 GitHub 仓库。
+```
 
-进入 Settings > Pages。
+### 六、配置 GitHub Pages
+1. 打开你的 GitHub 仓库。
 
-在 Build and deployment 部分，选择：
+2. 进入 Settings > Pages。
 
-Source: Deploy from a branch
+3. 在 Build and deployment 部分，选择：
+- Source: Deploy from a branch
+- Branch: main / (root) 或者 gh-pages
+- 点击 Save。
 
-Branch: main / (root) 或者 gh-pages
+### 七、访问你的网站
+- GitHub 会自动构建你的站点，等待几分钟后（一般 1~5 分钟）。
+    - 此处可以在GitHub导航栏的Actions部分查看完成情况
 
-点击 Save。
+- 访问：https://你的GitHub用户名.github.io/ 或者 https://github.com/你的GitHub用户名/你的仓库名.git/ 就可以看到 Jekyll 网站了！
 
-🌟 七、访问你的网站
-GitHub 会自动构建你的站点，等待几分钟后（一般 1~5 分钟）。
+### 八、修改与更新
+- 在 _posts/ 文件夹中创建 .md 文件发布新的文章，例如：
 
-访问：https://你的GitHub用户名.github.io/ 就可以看到你的 Jekyll 网站了！
-
-🌟 八、修改与更新
-在 _posts/ 文件夹中创建 .md 文件发布新的文章，例如：
-
-markdown
-复制
-编辑
+```md
 ---
 layout: post
 title: "我的第一篇文章"
@@ -314,11 +297,23 @@ categories: 更新 日志
 ---
 
 这里是我的第一篇文章的内容！
-提交修改并推送到 GitHub：
+```
 
-bash
-复制
-编辑
+- 提交修改并推送到 GitHub：
+
+```bash
 git add .
 git commit -m "发布新文章"
 git push
+```
+
+- 解释：
+    - Jekyll 为模板的 markdown 文件的文件名需为 年-月-日-标题.md 的形式
+    - Jekyll 为模板的 markdown 文件的文件内容开头，必须有 --- --- 部分，其中：
+        - layout：指明布局样式，一般存在 default, home, post 等形式
+        - title：指明标题名
+        - date：指明文章更新日期
+        - categories：指明文件归属的文件夹或者说是文件类型
+    - _posts/ 为默认文章更新更新位置，如需在主页更新markdwon文件，可以直接放在_posts/文件夹下。若希望新键文件夹放置，将在另一篇博文介绍。
+
+- 注意：
