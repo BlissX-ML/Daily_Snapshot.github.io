@@ -116,10 +116,9 @@ cp -r /usr/theme/minima/* ./
 
 5. 更新 `_includes` 文件夹下的 `head.html` 文件：
 - 删除原有的 `<link>` 标签，并替换为本地路径：
-```html
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+```md
+\`<link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">\`
 ```
-
   - 解释：
       - `<head></head>` 中用于导入 CSS 样式文件。
       - `_layouts/default.html` 包含 `head.html`，这个文件可能管理了 CSS 的导入。
