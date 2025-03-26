@@ -185,19 +185,18 @@ pre,
 code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
-  border-radius: 5px;
-  background-color: #EDEDEB;
-  color: #333;
-  /* 默认字体颜色不再是红色 */
+  border-radius: 10px;
+  background-color: #f8f8f6;
+  color: #d36968;
   line-height: $base-line-height;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
 /* 优化内联代码块的样式 */
 code {
-  padding: 1px 8px;
-  background-color: #f0f0f0;
-  border-radius: 3px;
+  padding: 2px 8px;
+  background-color: #e7e8e3;
+  border-radius: 5px;
 }
 
 /* 优化多行代码块的样式 */
