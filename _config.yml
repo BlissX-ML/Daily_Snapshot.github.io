@@ -47,6 +47,9 @@ collections:
   git_related:
     output: true
     permalink: /git_related/:slug/
+  leetcode_seventy_five:
+    output: true
+    permalink: /leetcode-75/:slug/
 
 
 # Exclude from processing.

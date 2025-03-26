@@ -60,6 +60,7 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
+  margin-top: $spacing-unit * 0.5;
   margin-bottom: $spacing-unit * 0.5;
 }
 
@@ -104,13 +105,16 @@ figcaption {
 ul,
 ol {
   margin-left: $spacing-unit;
+  line-height: $base-line-height;
 }
 
 li {
+  line-height: $base-line-height;
 
   >ul,
   >ol {
     margin-bottom: 0;
+    line-height: $base-line-height;
   }
 }
 
@@ -181,17 +185,20 @@ pre,
 code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  border-radius: 5px;
+  background-color: #EDEDEB;
+  color: #EB5857;
+  line-height: $base-line-height;
 }
 
 code {
-  padding: 1px 5px;
+  padding: 1px 8px;
 }
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  margin: 5px 0;
 
   >code {
     border: 0;

@@ -97,7 +97,7 @@ ls /usr/theme/minima
 ```
   - 解释：
       - _sass：包含 Jekyll 的 CSS 样式；`minima.scss` 导入各种参数。
-      - _layouts：存储主题的默认 HTML 布局；部分位置通过 `{%- include header.html -%}` 导入 `_includes` 下的 HTML 文件。
+      - _layouts：存储主题的默认 HTML 布局；部分位置通过 {% raw %}`{%- include xx.html -%}`{% endraw %} 导入 `_includes` 下的 HTML 文件。
       - _includes：存储主题的较小 HTML 组件。
       - assets：包含 `main.scss`，它导入 `minima.scss` 并编译为 `main.css`。
 
