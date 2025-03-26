@@ -48,8 +48,10 @@ $on-laptop: 800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+
 // Import partials.
 @import "minima/base",
 "minima/layout",
-"minima/syntax-highlighting"
+"minima/syntax-highlighting",
+"minima/github-min"
 ;

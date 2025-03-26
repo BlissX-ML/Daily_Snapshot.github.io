@@ -187,18 +187,25 @@ code {
   border: 1px solid $grey-color-light;
   border-radius: 5px;
   background-color: #EDEDEB;
-  color: #EB5857;
+  color: #333;
+  /* 默认字体颜色不再是红色 */
   line-height: $base-line-height;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
+/* 优化内联代码块的样式 */
 code {
   padding: 1px 8px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
 }
 
+/* 优化多行代码块的样式 */
 pre {
   padding: 8px 12px;
   overflow-x: auto;
   margin: 5px 0;
+  background-color: #f7f6f2;
 
   >code {
     border: 0;
@@ -206,7 +213,6 @@ pre {
     padding-left: 0;
   }
 }
-
 
 
 /**
