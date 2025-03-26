@@ -61,8 +61,7 @@ merged: a p b q c d
     </div>
 </aside>
 
-### 自做答案
-
+<h2>Did it myself.</h2>
 <pre><code class="language-js">
 /**
  * @param {string} word1
@@ -86,8 +85,8 @@ var mergeAlternately = function(word1, word2) {
 };
 </code></pre>
 
-### 评论区
 
+<h2>Get it from the comments section</h2>
 <pre><code class="language-js">
 /**
  * @param {string} word1

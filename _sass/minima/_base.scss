@@ -203,6 +203,8 @@ code {
 /* 优化多行代码块的样式 */
 pre {
   padding: 8px 12px;
+  width: max-content;
+
   overflow-x: auto;
   margin: 5px 0;
   background-color: #f7f6f2;
