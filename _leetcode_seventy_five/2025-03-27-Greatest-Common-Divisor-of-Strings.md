@@ -1,11 +1,12 @@
 ---
 layout: default
 title: "DAY2 - Greatest Common Divisor of Strings"
-slug: "Day2"
+slug: "Day2_1"
 date: 2025-03-27 10:00:00 +0800
-permalink: /leetcode-75/Day2/
+permalink: /leetcode-75/Day2_1/
 ---
 
+# DAY 2 - Greatest Common Divisor of Strings
 <aside class="asideDiv">
     <!-- 图标 -->
     <div>
@@ -46,7 +47,7 @@ permalink: /leetcode-75/Day2/
 </aside>
 
 
-<h2><strong>Did it myself.</strong></h2>
+<h2><strong>Did it myself.</strong>  &#x274C;</h2>
 <pre><code class="language-js">
 var gcdOfStrings = function(str1, str2) {
     var result;

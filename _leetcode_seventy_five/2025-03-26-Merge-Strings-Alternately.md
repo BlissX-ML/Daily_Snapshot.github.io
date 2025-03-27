@@ -61,7 +61,7 @@ permalink: /leetcode-75/Day1/
     </div>
 </aside>
 
-<h2><strong>Did it myself.</strong></h2>
+<h2><strong>Did it myself.</strong>  &#x2B55;</h2>
 <pre><code class="language-js">
 var mergeAlternately = function(word1, word2) {
     var mergeWord = "";
