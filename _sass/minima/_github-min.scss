@@ -1,12 +1,13 @@
 pre code.hljs {
     display: block;
     width: auto;
+    height: fit-content;
     overflow-x: auto;
-    padding: 1em
+    padding: 0px 5px 1.5em;
 }
 
 code.hljs {
-    padding: 3px 5px
+    padding: 0px 5px 1.5em;
 }
 
 /*!

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Merge Strings Alternately"
+title: "DAY1 - Merge Strings Alternately"
 slug: "Day1"
 date: 2025-03-26 10:00:00 +0800
 permalink: /leetcode-75/Day1/
@@ -8,15 +8,15 @@ permalink: /leetcode-75/Day1/
 
 # DAY 1 - Merge Strings Alternately
 
-<aside style="background-color: #f8f8f6; display: flex; flex-direction: row; padding: 2em 1em">
+<aside class="asideDiv">
     <!-- 图标 -->
-    <div style="flex: 1;">
+    <div>
         👉
     </div>
     <!-- 题目介绍 -->
-    <div style="padding-left: 2em; margin: 0; flex: auto;">
+    <div>
         <!-- 文字介绍部分 -->
-        <div>
+        <main>
             <p style="margin: 0;">
                 You are given two strings <code>word1</code> and <code>word2</code>. Merge the strings by adding letters in alternating
                 order,
@@ -27,37 +27,37 @@ permalink: /leetcode-75/Day1/
             <p>
                 Return <i>the merged string.</i>
             </p>
-        </div>
+        </main>
         <!-- 示例部分 -->
-        <div>
+        <main>
             <h3>Example 1:</h3>
-            <pre><code class="language-plaintext">
-Input: word1 = "abc", word2 = "pqr"
-Output: "apbqcr"
-Explanation: The merged string will be merged as so:
-word1: a b c
-word2: p q r
-merged: a p b q c r
-            </code></pre>
+                <p class="quoteLeetcode">
+                Input: word1 = "abc", word2 = "pqr"<br>
+                Output: "apbqcr"<br>
+                Explanation: The merged string will be merged as so:<br>
+                word1: a b c<br>
+                word2: p q r<br>
+                merged: a p b q c r
+                </p>
             <h3>Example 2:</h3>
-            <pre><code class="language-plaintext">
-Input: word1 = "ab", word2 = "pqrs"
-Output: "apbqrs"
-Explanation: Notice that as word2 is longer, "rs" is appended to the end.
-word1: a b
-word2: p q r s
-merged: a p b q r s
-            </code></pre>
+            <p class="quoteLeetcode">
+            Input: word1 = "ab", word2 = "pqrs"<br>
+            Output: "apbqrs"<br>
+            Explanation: Notice that as word2 is longer, "rs" is appended to the end.<br>
+            word1: a b<br>
+            word2: p q r s<br>
+            merged: a p b q r s
+            </p>
             <h3>Example 3:</h3>
-            <pre><code class="language-plaintext">
-Input: word1 = "abcd", word2 = "pq"
-Output: "apbqcd"
-Explanation: Notice that as word1 is longer, "cd" is appended to the end.
-word1: a b c d
-word2: p q
-merged: a p b q c d
-            </code></pre>
-        </div>
+            <p class="quoteLeetcode">
+            Input: word1 = "abcd", word2 = "pq"<br>
+            Output: "apbqcd"<br>
+            Explanation: Notice that as word1 is longer, "cd" is appended to the end.<br>
+            word1: a b c d<br>
+            word2: p q<br>
+            merged: a p b q c d
+            </p>
+        </main>
     </div>
 </aside>
 
