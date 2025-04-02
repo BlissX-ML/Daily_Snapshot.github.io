@@ -32,14 +32,7 @@ Output: false
 </aside>
 
 
-
-
-
-
-
-
-
-<h2><strong>Did it myself.</strong></h2>
+## **Did it myself**
 <pre><code class="language-js">
 var canPlaceFlowers = function(flowerbed, n) {
     let length = flowerbed.length;

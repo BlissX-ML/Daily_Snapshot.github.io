@@ -102,7 +102,7 @@ var gcdOfStrings = function(str1, str2) {
 </code></pre>
 <br>
 
----
+{% include hr_write_word.html text="相关知识整理与扩展" %}
 
 ## 一、欧几里得算法
 

@@ -44,3 +44,36 @@
     border-left: 2px solid black;
     font-family: Consolas;
 }
+
+pre code.language-js {
+    display: block;
+    margin: 0;
+    border-radius: 6px;
+}
+
+// "+" 表示相邻的标签
+h2+pre code.language-js {
+    margin-bottom: 1em;
+}
+
+.hr-with-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5em auto;
+    width: 50%;
+}
+
+.hr-with-text::before,
+.hr-with-text::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.hr-with-text span {
+    padding: 0 1.5em;
+    color: #666;
+    font-weight: bold;
+    font-size: 0.9em;
+}
