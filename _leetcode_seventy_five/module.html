@@ -1,56 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<aside class="asideDiv">
+    <div>👉</div>
+    <div>
+        <main>
+            {% capture explanation %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+            {% endcapture %}
+            {{ explanation | markdownify }}
+        </main>
+        <main>
+            {% capture example %}
+            #### Example 1:
 
-<body>
-    <aside class="asideDiv">
-        <!-- 图标 -->
-        <div>
-            👉
-        </div>
-        <!-- 题目介绍 -->
-        <div>
-            <!-- 文字介绍部分 -->
-            <main>
-                <p style="margin: 0;">
+            #### Example 2:
 
-                </p>
-                <p>
+            {% endcapture %}
+            {{ example | markdownify }}
+        </main>
+    </div>
+</aside>
 
-                </p>
-            </main>
-            <!-- 示例部分 -->
-            <main>
-                <h3>Example 1:</h3>
-                <p class="quoteLeetcode">
 
-                </p>
-                <h3>Example 2:</h3>
-                <p class="quoteLeetcode">
 
-                </p>
-                <h3>Example 3:</h3>
-                <p class="quoteLeetcode">
+<h2><strong>Did it myself.</strong></h2>
+<pre><code class="language-js">
 
-                </p>
-            </main>
-        </div>
-    </aside>
+</code></pre>
 
-    <h2><strong>Did it myself.</strong></h2>
-    <pre><code class="language-js">
+<h2><strong>Get it from the comments section</strong></h2>
+<pre><code class="language-js">
 
-    </code></pre>
-
-    <h2><strong>Get it from the comments section</strong></h2>
-    <pre><code class="language-js">
-
-    </code></pre>
-</body>
-
-</html>
+</code></pre>
