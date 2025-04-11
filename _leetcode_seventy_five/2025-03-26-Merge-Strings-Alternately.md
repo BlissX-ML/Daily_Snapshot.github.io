@@ -48,7 +48,7 @@ merged: a p b q c   d
     </div>
 </aside>
 
----
+{% include hr_write_word.html text="代码展示（含错误 & 正确写法）" %}
 
 <h2><strong>Did it myself.</strong>  &#x2B55;</h2>
 <pre><code class="language-js">

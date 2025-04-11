@@ -7,44 +7,35 @@ permalink: /leetcode-75/Day2_1/
 ---
 
 # DAY 2 - Greatest Common Divisor of Strings
+
 <aside class="asideDiv">
-    <!-- 图标 -->
+    <div>👉</div>
     <div>
-        👉
-    </div>
-    <!-- 题目介绍 -->
-    <div>
-        <!-- 文字介绍部分 -->
         <main>
-            <p style="margin: 0;">
-                For two strings <code>s</code> and <code>t</code>, we say "<code>t</code> divides <code>s</code>" if and only if <code>s = t + t + t + ... + t + t</code> (i.e., <code>t</code> is concatenated with itself one or more times).
-            </p>
-            <p>
-                Given two strings <code>str1</code> and <code>str2</code>, return <i>the largest string</i> <code>x</code> <i>such that</i> <code>x</code> <i>divides both</i> <code>str1</code> <i>and</i> <code>str2</code>.
-            </p>
+            {% capture explanation %}
+For two strings `s` and `t`, we say "`t` divides `s`" if and only if `s = t + t + t + ... + t + t` (i.e., `t` is concatenated with itself one or more times).
+
+Given two strings `str1` and `str2`, return *the largest string* `x` *such that* `x` *divides both* `str1` *and* `str2`.
+            {% endcapture %}
+            {{ explanation | markdownify }}
         </main>
-        <!-- 示例部分 -->
         <main>
-            <h3>Example 1:</h3>
-            <!-- <pre><code class="language-plaintext"> -->
-            <p class="quoteLeetcode">
-            Input: str1 = "ABCABC", str2 = "ABC"<br>
-            Output: "ABC"
-            </p>
-            <!-- </code></pre> -->
-            <h3>Example 2:</h3>
-            <p class="quoteLeetcode">
-            Input: str1 = "ABABAB", str2 = "ABAB"<br>
-            Output: "AB"
-            </p>
-            <h3>Example 3:</h3>
-            <p class="quoteLeetcode">
-            Input: str1 = "LEET", str2 = "CODE"<br>
-            Output: ""
-            </p>
+            {% capture example %}
+#### Example 1:
+Input: str1 = "ABCABC", str2 = "ABC"<br>
+Output: "ABC"
+#### Example 2:
+Input: str1 = "ABABAB", str2 = "ABAB"<br>
+Output: "AB"
+#### Example 3:
+Input: str1 = "LEET", str2 = "CODE"<br>
+Output: ""
+            {% endcapture %}
+            {{ example | markdownify }}
         </main>
     </div>
 </aside>
+
 
 {% include hr_write_word.html text="代码展示（含错误 & 正确写法）" %}
 
@@ -247,7 +238,7 @@ var gcdOfStrings = function(str1, str2) {
     - **示例：** `console.log('BlissX_ML'.indexOf('s')); // 3`
 
 
-### 四、**数组的截取、添加方法：**
+### **四、数组的截取、添加方法：**
 
 <div style="margin-left: 2.5em;">
 {% capture tableIndent %}
@@ -342,3 +333,83 @@ var gcdOfStrings = function(str1, str2) {
         - 可添加多个元素，原数组右移
     - **示例：**`console.log(['b', 'j', 'y', 'x'].unshift(85, 1005));   // 6`
 
+
+### **五、对象的截取、添加方法：**
+
+<div style="margin-left: 2.5em;">
+{% capture tableIndent %}
+| --- | --- | --- | --- | --- |
+| **`Object.assign()`** | **`delete obj[key]`** | **`Object.keys()`** | **`Object.values()`** | **`JSON.parse(JSON.stringify(obj))`** |
+{% endcapture %}
+{{ tableIndent | markdownify }}
+</div>
+
+
+1. **`Object.assign()`**
+
+    - 用于浅拷贝或合并多个对象。语法为 **`Object.assign(target, ...sources)`**
+
+    - **是否改原值：** 否（修改 `target` 对象，但不改源对象）
+
+    - **说明：**
+        - 会将所有 `source` 的属性复制到 `target` 中
+        - 若多个对象有相同属性，后面的值会覆盖前面的
+        - 仅拷贝第一层属性（浅拷贝）
+    - **示例：**`console.log(Object.assign({a: 3}, {x: 1}, {y: 2}));  // { a: 3, x: 1, y: 2 }`
+
+2. **`delete obj[key]`**
+
+    - 用于删除对象的属性。语法为 **`delete obj.prop`** 或 **`delete obj['key']`**
+
+    - **是否改原值：** ✅ 是
+
+    - **说明：**
+        - 删除成功返回 `true`
+        - 删除不存在的属性也返回 `true`
+        - 删除会影响原对象结构
+    - **示例：**`console.log(delete {a: 3, b: 2}.b);  // true`
+
+3. **`Object.keys()`**
+
+    - 用于获取对象所有键名。语法为 **`Object.keys(obj)`**
+
+    - **是否改原值：** 否
+
+    - **说明：**
+        - 返回值为字符串数组
+        - 不包含继承的属性或 Symbol 属性
+    - **示例：**`console.log(Object.keys({a: 3, b: 2}));   // ["a", "b"]`
+
+4. **`Object.values()`**
+
+    - 用于获取对象所有键值。语法为 **`Object.values(obj)`**
+
+    - **是否改原值：** 否
+
+    - **说明：**
+        - 返回值为数组，顺序与 `Object.keys()` 对应
+        - 不包含继承属性或 Symbol
+    - **示例：**`console.log(Object.values({a: 3, b: 2}));   // [3, 2]`
+
+5. **`Object.entries()`**
+
+    - 用于将对象转换为键值对数组。语法为 **`Object.entries(obj)`**
+
+    - **是否改原值：** 否
+
+    - **说明：**
+        - 返回二维数组，每个元素是 `[key, value]`
+        - 可用于 `for...of` 遍历配合解构使用
+    - **示例：**`console.log(Object.entries({a: 3, b: 2}));   // [["a", 3], ["b", 2]]`
+
+    - **解构示例**：`for(let [key, val] of Object.entries({a: 3, b: 2})){console.log(key, val)}`
+
+6. **`JSON.parse(JSON.stringify(obj))`**
+
+    - 用于实现对象的深拷贝。语法为 **`const copy = JSON.parse(JSON.stringify(obj))`**
+
+    - **是否改原值：** 否（生成新对象）
+
+    - **说明：**
+        - 能够复制嵌套对象，实现值独立
+        - 不能复制函数、Symbol、undefined、循环引用等
