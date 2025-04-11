@@ -45,17 +45,31 @@
     font-family: Consolas;
 }
 
+
+/**
+ * Display JavaScript code blocks with consistent styling.
+ * Used to present both incorrect and correct versions clearly.
+ */
 pre code.language-js {
     display: block;
     margin: 0;
     border-radius: 6px;
 }
 
-// "+" 表示相邻的标签
-h2+pre code.language-js {
+/**
+ * Adjust spacing between headings (e.g. h2) and adjacent code blocks.
+ * "+" 选择器：紧邻的兄弟标签
+ * "~" 选择器：后续所有同级兄弟标签
+ * This fixes the issue where the last line of code appears too close to the bottom border.
+ */
+h2~pre code.language-js {
     margin-bottom: 1em;
 }
 
+/**
+ * Custom horizontal divider with centered text.
+ * Used with {% include hr_write_word.html text="..." %} to separate content sections.
+ */
 .hr-with-text {
     display: flex;
     align-items: center;
@@ -63,6 +77,7 @@ h2+pre code.language-js {
     margin: 5em auto;
     width: 50%;
 }
+
 
 .hr-with-text::before,
 .hr-with-text::after {

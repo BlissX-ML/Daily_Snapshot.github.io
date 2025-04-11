@@ -13,6 +13,26 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
+  <!-- <script>
+    document.querySelectorAll('div.language-jsx').forEach(wrapper => {
+      const pre = wrapper.querySelector('pre');
+      if (pre) {
+        // 清理 pre 自身的 class
+        pre.classList.remove('highlight');
+        // 清理 code 中的多余类，只保留 language-javascript
+        const code = pre.querySelector('code');
+        if (code) {
+          code.className = 'language-javascript';
+        }
+
+        // 替换整个 wrapper 为 pre
+        wrapper.parentNode.insertBefore(pre, wrapper);
+        wrapper.remove();
+      }
+    });
+  </script> -->
+
+
 
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
