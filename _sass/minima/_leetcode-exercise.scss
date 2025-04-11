@@ -97,5 +97,9 @@ h2~pre code.language-js {
  * Knowledge extension: code styling best practices
  */
 .special-code {
-    padding: $padding-imagin*2 0;
+    padding: $padding-image-unit*2 0;
+}
+
+.wrapper>h3:not(:first-of-type) {
+    margin-top: $spacing-unit *2;
 }

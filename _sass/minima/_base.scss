@@ -81,13 +81,11 @@ main {
 img {
   display: block;
   max-width: 80%;
-  text-align: center;
-  align-items: center;
   margin: 0 auto;
   border: $border-width solid black;
-  padding: $padding-imagin
+  padding: $padding-image-unit;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
-
 
 
 /**
@@ -235,6 +233,11 @@ pre {
   }
 }
 
+// pre,
+// li pre {
+//   padding-left: 10em;
+//   margin-left: 0;
+// }
 
 
 

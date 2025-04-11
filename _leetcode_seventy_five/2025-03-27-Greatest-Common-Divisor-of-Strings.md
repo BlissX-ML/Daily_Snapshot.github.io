@@ -148,16 +148,14 @@ var gcdOfStrings = function(str1, str2) {
         - 如果 `endIndex` 省略，则返回从 `startIndex` 到结尾的所有字符。
     - 不修改原字符串，返回新字符串。
 
-```jsx
-let str = "Hello, World!";
-console.log(str.substring(0, 5)); // 输出: "Hello"
-console.log(str.substring(7));    // 输出: "World!"
-console.log(str);                  // 原字符串未改变："Hello, World!"
-```
+    ```jsx
+    let str = "Hello, World!";
+    console.log(str.substring(0, 5)); // 输出: "Hello"
+    console.log(str.substring(7));    // 输出: "World!"
+    console.log(str);                  // 原字符串未改变："Hello, World!"
+    ```
 
----
-
-### 三、字符串、数组、对象操作
+### **三、字符串、数组、对象操作**
 
 - **字符串的截取、添加方法：**
     
