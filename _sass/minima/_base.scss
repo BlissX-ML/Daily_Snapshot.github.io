@@ -109,21 +109,16 @@ ol {
   margin-left: $spacing-unit;
   line-height: $base-line-height;
   margin-bottom: $spacing-unit * 0.5;
+
+  >li>strong {
+    display: inline-block;
+    margin-bottom: $spacing-unit * 0.5;
+  }
 }
 
 li {
   line-height: $base-line-height;
   margin-bottom: $spacing-unit * 0.5;
-
-  >strong {
-    display: block;
-    margin-bottom: $spacing-unit * 0.5;
-    font-weight: bold;
-  }
-
-  >#text {
-    margin-bottom: $spacing-unit
-  }
 
   >ul,
   >ol {
@@ -299,6 +294,7 @@ pre {
  * Tables
  */
 table {
+  border-collapse: collapse;
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
@@ -319,11 +315,11 @@ table {
 
   th {
     background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
+    border: 1px solid darken($grey-color-darker, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
 
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid darken($grey-color-darker, 4%);
   }
 }

@@ -18,14 +18,17 @@ $text-color: #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color: #2a7ae2 !default;
 
-$grey-color: #dcded9 !default;
-$grey-color-light: mix(white, $grey-color, 80%);
-$grey-color-dark: mix(black, $grey-color, 40%);
+$grey-base: #f5f5f5 !default; // 极浅灰作为基础背景色
+$grey-color-light: mix(white, $grey-base, 60%); // 接近白，但略有层次（卡片、面板背景）
+$grey-color: $grey-base; // 默认灰（背景色）
+$grey-color-dark: mix(#999999, $grey-base, 40%); // 中灰（用于边框、分隔线）
+$grey-color-darker: mix(#666666, $grey-base, 30%); // 深灰（可用于文本色、强调）
+
 
 $border-width: 1px !default;
 $padding-image-unit: 10px !default;
 
-$table-text-align: left !default;
+$table-text-align: center !default;
 
 // Width of the content area
 $content-width: 1000px !default;
