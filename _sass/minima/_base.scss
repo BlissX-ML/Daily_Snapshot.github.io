@@ -65,7 +65,6 @@ figure,
 }
 
 
-
 /**
  * `main` element
  */
@@ -80,8 +79,13 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
-  vertical-align: middle;
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  border: $border-width solid black;
+  padding: $padding-imagin
 }
 
 
@@ -105,19 +109,30 @@ figcaption {
 ul,
 ol {
   margin-left: $spacing-unit;
-  // line-height: $base-line-height;
+  line-height: $base-line-height;
+  margin-bottom: $spacing-unit * 0.5;
 }
 
 li {
   line-height: $base-line-height;
+  margin-bottom: $spacing-unit * 0.5;
+
+  >strong {
+    display: block;
+    margin-bottom: $spacing-unit * 0.5;
+    font-weight: bold;
+  }
+
+  >#text {
+    margin-bottom: $spacing-unit
+  }
 
   >ul,
   >ol {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: $spacing-unit * 0.5;
     line-height: $base-line-height;
     justify-content: center;
-
   }
 }
 
@@ -208,7 +223,7 @@ code {
 /* 优化多行代码块的样式 */
 pre {
   padding: 0px 12px;
-  max-width: 90%;
+  max-width: 100%;
   overflow-x: auto;
   margin: 5px 0;
   background-color: #f7f6f2;

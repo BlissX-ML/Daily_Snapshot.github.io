@@ -103,7 +103,7 @@ var gcdOfStrings = function(str1, str2) {
 
 {% include hr_write_word.html text="相关知识整理与扩展" %}
 
-### 一、欧几里得算法
+### **一、欧几里得算法**
 
 - **概念：**
     - 欧几里得算法（GCD算法）用于计算两个正整数的最大公约数。
@@ -134,20 +134,19 @@ var gcdOfStrings = function(str1, str2) {
     }
     ```
     
+![image]({{ "/assets/images/leetcode/Euclidean-algorithm.png" | relative_url }})
 
-![image.png](attachment:8e02d4ac-4111-4cd1-a13e-369e62758964:image.png)
-
----
-
-### 二、substring() 方法
+### **二、substring() 方法**
 
 - **`substring()` 方法**
     - 用于提取字符串中指定索引范围内的子字符串。
+
     - 语法：`string.substring(startIndex, endIndex)`
+
         - `startIndex`：开始位置（包含）
         - `endIndex`：结束位置（不包含）
         - 如果 `endIndex` 省略，则返回从 `startIndex` 到结尾的所有字符。
-    - 不修改原字符串，**返回新字符串**。
+    - 不修改原字符串，返回新字符串。
 
 ```jsx
 let str = "Hello, World!";

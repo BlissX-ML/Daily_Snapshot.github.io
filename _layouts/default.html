@@ -20,6 +20,7 @@
         const pre = wrapper.querySelector('pre');
         if (pre) {
           pre.classList.remove('highlight');
+          pre.classList.add('special-code');
           const code = pre.querySelector('code');
           if (code) {
             code.className = 'language-javascript language-js hljs';

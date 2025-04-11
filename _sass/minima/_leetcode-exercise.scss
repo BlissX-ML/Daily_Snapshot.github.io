@@ -92,3 +92,10 @@ h2~pre code.language-js {
     font-weight: bold;
     font-size: 0.9em;
 }
+
+/**
+ * Knowledge extension: code styling best practices
+ */
+.special-code {
+    padding: $padding-imagin*2 0;
+}
