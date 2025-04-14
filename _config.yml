@@ -51,6 +51,10 @@ collections:
     output: true
     permalink: /leetcode-75/:slug/
 
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

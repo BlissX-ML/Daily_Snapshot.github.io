@@ -71,9 +71,9 @@ figure,
 main {
   display: block;
 
-  >ul>li {
-    list-style: none;
-  }
+  // >ul>li {
+  //   list-style: none;
+  // }
 
   /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
@@ -85,7 +85,7 @@ main {
  */
 img {
   display: block;
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
   border: $border-width solid black;
   padding: $padding-image-unit $padding-image-unit*2;
