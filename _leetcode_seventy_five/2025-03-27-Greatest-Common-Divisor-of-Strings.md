@@ -6,6 +6,7 @@ date: 2025-03-27 10:00:00 +0800
 permalink: /leetcode-75/Day2_1/
 ---
 
+
 # DAY 2 - Greatest Common Divisor of Strings
 
 <aside class="asideDiv">

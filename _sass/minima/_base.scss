@@ -70,6 +70,11 @@ figure,
  */
 main {
   display: block;
+
+  >ul>li {
+    list-style: none;
+  }
+
   /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
