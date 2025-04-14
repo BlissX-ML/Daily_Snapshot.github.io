@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DAY4 - Reverse Words in a String"
+title: "DAY 4 - Reverse Words in a String"
 slug: "Day4_1"
 date: 2025-03-31 10:00:00 +0800
 permalink: /leetcode-75/Day4_1/

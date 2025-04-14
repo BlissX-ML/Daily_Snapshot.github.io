@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DAY3 - Can Place Flowers"
+title: "DAY 3 - Can Place Flowers"
 slug: "Day3_1"
 date: 2025-03-28 10:00:00 +0800
 permalink: /leetcode-75/Day3_1/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DAY2 - Greatest Common Divisor of Strings"
+title: "DAY 2 - Greatest Common Divisor of Strings"
 slug: "Day2_1"
 date: 2025-03-27 10:00:00 +0800
 permalink: /leetcode-75/Day2_1/

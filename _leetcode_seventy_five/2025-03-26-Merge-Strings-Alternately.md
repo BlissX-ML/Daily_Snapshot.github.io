@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DAY1 - Merge Strings Alternately"
+title: "DAY 1 - Merge Strings Alternately"
 slug: "Day1"
 date: 2025-03-26 10:00:00 +0800
 permalink: /leetcode-75/Day1/

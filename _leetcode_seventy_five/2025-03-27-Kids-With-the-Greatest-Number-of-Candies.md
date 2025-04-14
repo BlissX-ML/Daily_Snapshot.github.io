@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DAY2 - Kids With the Greatest Number of Candies"
+title: "DAY 2 - Kids With the Greatest Number of Candies"
 slug: "Day2_2"
 date: 2025-03-27 10:00:00 +0800
 permalink: /leetcode-75/Day2_2/
