@@ -6,6 +6,7 @@ date: 2025-03-28 10:00:00 +0800
 permalink: /leetcode-75/Day3_1/
 ---
 
+# DAY 3 - Can Place Flowers
 <aside class="asideDiv">
     <div>👉</div>
     <div>
