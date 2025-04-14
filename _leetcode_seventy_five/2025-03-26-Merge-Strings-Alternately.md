@@ -80,3 +80,5 @@ var mergeAlternately = function(word1, word2) {
   return result;
 };
 </code></pre>
+
+{% include hr_write_word.html text="END" %}

@@ -236,3 +236,5 @@ var reverseVowels = function(s) {
     - `while` 是：**重复执行**
 
     - `switch` 是：**匹配值后执行对应分支**（可以看作 `if...else` 的替代）
+
+{% include hr_write_word.html text="END" %}

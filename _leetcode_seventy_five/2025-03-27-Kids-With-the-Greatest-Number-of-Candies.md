@@ -169,7 +169,7 @@ var kidsWithCandies = function(candies, extraCandies) {
 ### 三、加减法与运算符优先级的介绍
 
 - <b>运算符优先级（由高到低）</b>：
-<div style="margin-left: 0.5em; font-size:14px;">
+<div style="margin-left: 1.5em;">
 {% capture tableIndent %}
 | 运算符 | `()` | `*` / `/` | `+` / `-` | `>=` / `<=` | `==` / `!=` | `&&` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -184,3 +184,5 @@ var kidsWithCandies = function(candies, extraCandies) {
     - `+` 的优先级是 `14`，而 `>=` 的优先级是 `11`，加法运算会在比较之前被计算。
 
 - 注意：在混合使用不同运算符时，可以使用 `()` 来提高可读性。
+
+{% include hr_write_word.html text="END" %}

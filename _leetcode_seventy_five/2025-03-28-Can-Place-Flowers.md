@@ -148,4 +148,4 @@ var canPlaceFlowers = function(flowerbed, n) {
 
 5. **返回 `false`**：遍历完成后仍然不能满足条件，则返回 `false`
 
-
+{% include hr_write_word.html text="END" %}

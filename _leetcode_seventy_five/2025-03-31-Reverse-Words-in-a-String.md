@@ -185,3 +185,5 @@ var reverseWords = function(s) {
     - 是替换用的字符，也就是把所有连续空格统一替换为一个普通空格。
 
 - **示例：**`"  a   good   example  ".replace(/\s+/g, ' ');   // 输出：" a good example "`
+
+{% include hr_write_word.html text="END" %}

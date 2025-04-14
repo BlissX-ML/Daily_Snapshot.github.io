@@ -414,3 +414,5 @@ var gcdOfStrings = function(str1, str2) {
     - **说明：**
         - 能够复制嵌套对象，实现值独立
         - 不能复制函数、Symbol、undefined、循环引用等
+
+{% include hr_write_word.html text="END" %}
