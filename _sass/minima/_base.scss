@@ -301,7 +301,8 @@ pre {
 table {
   border-collapse: collapse;
   margin-bottom: $spacing-unit;
-  width: 100%;
+  width: auto;
+  table-layout: auto;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
@@ -316,6 +317,7 @@ table {
   th,
   td {
     padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
+    white-space: nowrap;
   }
 
   th {
