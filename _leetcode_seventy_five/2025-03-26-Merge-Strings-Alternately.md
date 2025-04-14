@@ -50,7 +50,7 @@ merged: a p b q c   d
 
 {% include hr_write_word.html text="代码展示（含错误 & 正确写法）" %}
 
-<h2><strong>Did it myself.</strong>  &#x2B55;</h2>
+## **Did it myself.**  &#x2B55;
 <pre><code class="language-js">
 var mergeAlternately = function(word1, word2) {
     var mergeWord = "";
@@ -69,8 +69,7 @@ var mergeAlternately = function(word1, word2) {
 };
 </code></pre>
 
-
-<h2><strong>Solution via Comments / GPT</strong></h2>
+## **Solution via Comments / GPT**
 <pre><code class="language-js">
 var mergeAlternately = function(word1, word2) {
  let result = '';

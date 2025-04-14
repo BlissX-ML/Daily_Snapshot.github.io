@@ -31,8 +31,9 @@ Output: false
     </div>
 </aside>
 
+{% include hr_write_word.html text="代码展示（含错误 & 正确写法）" %}
 
-## **Did it myself**
+## **Did it myself.** &#x274C;
 <pre><code class="language-js">
 var canPlaceFlowers = function(flowerbed, n) {
     let length = flowerbed.length;
@@ -58,7 +59,7 @@ var canPlaceFlowers = function(flowerbed, n) {
 };
 </code></pre>
 
-<h2><strong>Get it from the comments section</strong></h2>
+## **Solution via Comments / GPT**
 <pre><code class="language-js">
 var canPlaceFlowers = function(flowerbed, n) {
   // 遍历整个数组
@@ -81,3 +82,69 @@ var canPlaceFlowers = function(flowerbed, n) {
   return false;
 };
 </code></pre>
+![image]({{ "/assets/images/leetcode/Can-Place-Flowers.png" | relative_url }})
+
+<pre><code class="language-js">
+var canPlaceFlowers = function(flowerbed, n) {
+    let count = 0;
+    for (let i = 0; i < flowerbed.length; i++) {
+        if (flowerbed[i] === 0) {
+            const prev = i === 0? 0 : flowerbed[i - 1];
+            const next = i === flowerbed.length - 1? 0 : flowerbed[i + 1];
+            if (prev === 0 && next === 0) {
+                flowerbed[i] = 1;
+                count++;
+                if (count >= n) {
+                    return true
+                }
+            }
+        }
+    }
+    return count >= n
+};
+</code></pre>
+
+{% include hr_write_word.html text="相关知识整理与扩展" %}
+
+### **一、向上取整与向下取整的数学方法**
+
+- **`Math.ceil()`**
+
+    - 用于向上取整，返回大于等于给定数字的最小整数。
+
+    - **语法：`Math.ceil(x)`**
+
+    - 示例：`console.log(Math.ceil(-4.2));  // 输出：-4`
+
+- **`Math.floor()`**
+
+    - 用于向下取整，返回小于等于给定数字的最大整数。
+
+    - **语法：`Math.floor(x)`**
+
+    - 示例：`console.log(Math.floor(4.8)); // 输出：4`
+
+- **区别：**
+<div style="margin-left: 1.5em;">
+{% capture tableIndent %}
+| 方法 | 作用 | 示例（输入：4.7） | 示例（输入：-4.7） |
+| --- | --- | --- | --- |
+| `Math.ceil()` | 向上取整 | 5 | -4 |
+| `Math.floor()` | 向下取整 | 4 | -5 |
+{% endcapture %}
+{{ tableIndent | markdownify }}
+</div>
+
+### 二、种花问题解题思路
+
+1. **遍历数组**：检查每一个 `0` 的位置
+
+2. **判断左右空位**：使用 `placeEmptyLeft` 和 `placeEmptyRight` 来检测左右两侧是否为空
+
+3. **种花与修改数组**：符合条件的地方修改为 `1` 并 `n--`
+
+4. **提前返回 `true`**：一旦 `n <= 0`，立即返回 `true`
+
+5. **返回 `false`**：遍历完成后仍然不能满足条件，则返回 `false`
+
+

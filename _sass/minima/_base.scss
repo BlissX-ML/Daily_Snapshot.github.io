@@ -88,7 +88,7 @@ img {
   max-width: 80%;
   margin: 0 auto;
   border: $border-width solid black;
-  padding: $padding-image-unit;
+  padding: $padding-image-unit $padding-image-unit*2;
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 

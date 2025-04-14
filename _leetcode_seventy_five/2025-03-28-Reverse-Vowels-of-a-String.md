@@ -6,4 +6,52 @@ date: 2025-03-28 10:00:00 +0800
 permalink: /leetcode-75/Day3_2/
 ---
 
-111
+<aside class="asideDiv">
+    <div>👉</div>
+    <div>
+        <main>
+            {% capture explanation %}
+
+            {% endcapture %}
+            {{ explanation | markdownify }}
+        </main>
+        <main>
+            {% capture example %}
+            #### Example 1:
+
+            #### Example 2:
+
+            {% endcapture %}
+            {{ example | markdownify }}
+        </main>
+    </div>
+</aside>
+
+{% include hr_write_word.html text="代码展示（含错误 & 正确写法）" %}
+
+## **Did it myself.** &#x274C; &#x2B55;
+<pre><code class="language-js">
+
+</code></pre>
+
+## **Solution via Comments / GPT**
+<pre><code class="language-js">
+
+</code></pre>
+
+
+{% include hr_write_word.html text="相关知识整理与扩展" %}
+
+
+![image]({{ "/assets/images/leetcode/Euclidean-algorithm.png" | relative_url }})
+
+
+<!-- 表格 -->
+<div style="margin-left: 2.5em;">
+    {% capture tableIndent %}
+    | --- | --- | --- | --- | --- | --- | --- |
+    | **`substring()`** | **`slice()`** | **`concat()`** | **`replace()`** | **`split()`** | **`includes()`** |
+    **`indexOf()`** |
+    {% endcapture %}
+    {{ tableIndent | markdownify }}
+</div>
