@@ -97,7 +97,7 @@ h2~pre code.language-js {
  * Knowledge extension: code styling best practices
  */
 .special-code {
-    padding: $padding-image-unit*2 0;
+    padding: $padding-image-unit*2 $padding-image-unit;
 }
 
 .wrapper>h3:not(:first-of-type) {
