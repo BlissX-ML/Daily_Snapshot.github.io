@@ -96,6 +96,7 @@ var maxArea = function(height) {
         let w = right - left;
         maxSpace = Math.max(maxSpace, h*w)
 
+        // 每次计算后，总是移动高度较小的那一侧，以期望寻找更高的柱子。
         if(height[left] < height[right]){
             left++
         } else {
