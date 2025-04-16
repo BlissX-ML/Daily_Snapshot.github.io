@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "DAY 2 - Greatest Common Divisor of Strings"
-slug: "Day2_1"
+title: "Num. 02 - Greatest Common Divisor of Strings"
+slug: "Num02"
 date: 2025-03-27 10:00:00 +0800
-permalink: /leetcode-75/Day2_1/
+permalink: /leetcode-75/Num02/
 ---
 
 
-# DAY 2 - Greatest Common Divisor of Strings
+# Num. 02 - Greatest Common Divisor of Strings
 
 <aside class="asideDiv">
     <div>👉</div>

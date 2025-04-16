@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 5 - String Compression"
-slug: "Day5_2"
+title: "Num. 09 - String Compression"
+slug: "Num09"
 date: 2025-04-11 09:00:00 +0800
-permalink: /leetcode-75/Day5_2/
+permalink: /leetcode-75/Num09/
 ---
 
-# DAY 5 - String Compression（HARD）
+# Num. 09 - String Compression
 
 <aside class="asideDiv">
     <div>👉</div>

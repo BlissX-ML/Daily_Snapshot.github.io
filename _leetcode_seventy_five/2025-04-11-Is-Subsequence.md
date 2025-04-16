@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 5 - Is Subsequence"
-slug: "Day5_4"
+title: "Num. 11 - Is Subsequence"
+slug: "Num11"
 date: 2025-04-11 11:00:00 +0800
-permalink: /leetcode-75/Day5_4/
+permalink: /leetcode-75/Num11/
 ---
 
-# DAY 5 - Is Subsequence
+# Num. 11 - Is Subsequence
 
 <aside class="asideDiv">
     <div>👉</div>

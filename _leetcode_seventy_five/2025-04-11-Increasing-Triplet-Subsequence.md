@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 5 - Increasing Triplet Subsequence"
-slug: "Day5_1"
+title: "Num. 08 - Increasing Triplet Subsequence"
+slug: "Num08"
 date: 2025-04-11 08:00:00 +0800
-permalink: /leetcode-75/Day5_1/
+permalink: /leetcode-75/Num08/
 ---
 
-# DAY 5 - Increasing Triplet Subsequence    
+# Num. 08 - Increasing Triplet Subsequence
 <aside class="asideDiv">
     <div>👉</div>
     <div>

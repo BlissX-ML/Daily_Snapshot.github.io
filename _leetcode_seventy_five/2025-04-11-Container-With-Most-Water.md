@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 5 - Container With Most Water"
-slug: "Day5_5"
+title: "Num. 12 - Container With Most Water"
+slug: "Num12"
 date: 2025-04-11 12:00:00 +0800
-permalink: /leetcode-75/Day5_5/
+permalink: /leetcode-75/Num12/
 ---
 
-# DAY 5 - Container With Most Water
+# Num. 12 - Container With Most Water
 
 <aside class="asideDiv">
     <div>👉</div>

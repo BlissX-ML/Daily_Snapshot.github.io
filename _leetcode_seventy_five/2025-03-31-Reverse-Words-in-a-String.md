@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 4 - Reverse Words in a String"
-slug: "Day4_1"
-date: 2025-03-31 10:00:00 +0800
-permalink: /leetcode-75/Day4_1/
+title: "Num. 06 - Reverse Words in a String"
+slug: "Num06"
+date: 2025-03-31 09:00:00 +0800
+permalink: /leetcode-75/Num06/
 ---
 
-# DAY 4 - Reverse Words in a String
+# Num. 06 - Reverse Words in a String
 <aside class="asideDiv">
     <div>👉</div>
     <div>

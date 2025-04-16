@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 3 - Can Place Flowers"
-slug: "Day3_1"
+title: "Num. 04 - Can Place Flowers"
+slug: "Num04"
 date: 2025-03-28 10:00:00 +0800
-permalink: /leetcode-75/Day3_1/
+permalink: /leetcode-75/Num04/
 ---
 
-# DAY 3 - Can Place Flowers
+# Num. 04 - Can Place Flowers
 <aside class="asideDiv">
     <div>👉</div>
     <div>

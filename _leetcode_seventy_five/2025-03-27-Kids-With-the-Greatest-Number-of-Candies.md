@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 2 - Kids With the Greatest Number of Candies"
-slug: "Day2_2"
+title: "Num. 03 - Kids With the Greatest Number of Candies"
+slug: "Num03"
 date: 2025-03-27 10:00:00 +0800
-permalink: /leetcode-75/Day2_2/
+permalink: /leetcode-75/Num03/
 ---
 
-# DAY 2 - Kids With the Greatest Number of Candies
+# Num. 03 - Kids With the Greatest Number of Candies
 
 <aside class="asideDiv">
     <div>👉</div>

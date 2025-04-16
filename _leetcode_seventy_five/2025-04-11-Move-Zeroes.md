@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 5 - Move Zeroes"
-slug: "Day5_3"
+title: "Num. 10 - Move Zeroes"
+slug: "Num10"
 date: 2025-04-11 10:00:00 +0800
-permalink: /leetcode-75/Day5_3/
+permalink: /leetcode-75/Num10/
 ---
 
-# DAY 5 - Move Zeroes
+# Num. 10 - Move Zeroes
 
 <aside class="asideDiv">
     <div>👉</div>

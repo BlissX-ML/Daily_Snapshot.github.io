@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 3 - Reverse Vowels of a String"
-slug: "Day3_2"
+title: "Num. 05 - Reverse Vowels of a String"
+slug: "Num05"
 date: 2025-03-28 10:00:00 +0800
-permalink: /leetcode-75/Day3_2/
+permalink: /leetcode-75/Num05/
 ---
 
-# DAY 3 - Reverse Vowels of a String
+# Num. 05 - Reverse Vowels of a String
 <aside class="asideDiv">
     <div>👉</div>
     <div>

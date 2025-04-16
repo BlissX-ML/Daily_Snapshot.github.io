@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 4 - Product of Array Except Self"
-slug: "Day4_2"
+title: "Num. 07 - Product of Array Except Self"
+slug: "Num07"
 date: 2025-03-31 11:00:00 +0800
-permalink: /leetcode-75/Day4_2/
+permalink: /leetcode-75/Num07/
 ---
 
-# DAY 4 - Product of Array Except Self
+# Num. 07 - Product of Array Except Self
 
 <aside class="asideDiv">
     <div>👉</div>

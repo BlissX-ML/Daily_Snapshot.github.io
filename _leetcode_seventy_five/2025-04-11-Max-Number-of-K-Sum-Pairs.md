@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 5 - Max Number of K-Sum Pairs"
-slug: "Day5_6"
+title: "Num. 13 - Max Number of K-Sum Pairs"
+slug: "Num13"
 date: 2025-04-11 13:00:00 +0800
-permalink: /leetcode-75/Day5_6/
+permalink: /leetcode-75/Num13/
 ---
 
-# DAY 5 - Max Number of K-Sum Pairs
+# Num. 13 - Max Number of K-Sum Pairs
 
 <aside class="asideDiv">
     <div>👉</div>

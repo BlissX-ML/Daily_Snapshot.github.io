@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "DAY 1 - Merge Strings Alternately"
-slug: "Day1"
+title: "Num. 01 - Merge Strings Alternately"
+slug: "Num01"
 date: 2025-03-26 10:00:00 +0800
-permalink: /leetcode-75/Day1/
+permalink: /leetcode-75/Num01/
 ---
 
-# DAY 1 - Merge Strings Alternately
+# Num. 01 - Merge Strings Alternately
 
 <aside class="asideDiv">
     <div>👉</div>
