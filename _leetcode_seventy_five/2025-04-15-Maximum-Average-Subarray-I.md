@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Num. 14 - String Compression"
+title: "Num. 14 - Maximum Average Subarray I"
 slug: "Num14"
 date: 2025-04-15 09:00:00 +0800
 permalink: /leetcode-75/Num14/
 ---
 
-# Num. 14 - String Compression
+# Num. 14 - Maximum Average Subarray I
 
 <aside class="asideDiv">
     <div>👉</div>
