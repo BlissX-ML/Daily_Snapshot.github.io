@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Num. 02 - Greatest Common Divisor of Strings"
+title: "Num. 02 - Greatest Common Divisor of Strings: 字符串/数组/对象的可用方法 + 欧几里得算法 + substring()方法"
 slug: "Num02"
 date: 2025-03-27 10:00:00 +0800
 permalink: /leetcode-75/Num02/
