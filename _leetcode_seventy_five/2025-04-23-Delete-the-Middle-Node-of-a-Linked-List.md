@@ -110,5 +110,16 @@ var deleteMiddle = function(head) {
 
 ![image]({{ "/assets/images/leetcode/Delete-the-Middle-Node-of-a-Linked-List.png" | relative_url }})
 
+{% include hr_write_word.html text="相关知识整理与扩展" %}
+
+### **一、链表模板总结**
+
+1. **初始化双指针变量**：常见如 `let slow = head`, `fast = head`;（根据题意也可设置为 `fast = head.next`）
+
+2. **边界条件判断**：在函数开始处加上 `if (!head || !head.next) return head/null`; 防止链表为空或只有一个节点时出错
+
+3. **设置循环条件**：通常使用 `while (fast && fast.next)`，因为 `fast` 每次移动两步，需要保证它和它的下一步都存在，避免报错
+
+
 
 {% include hr_write_word.html text="END" %}
