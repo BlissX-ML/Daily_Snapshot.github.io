@@ -87,26 +87,34 @@ function lowestCommonAncestor(root, p, q) {
     function dfs(node) {
         if (!node) return null;
 
+        // 递归遍历左子树和右子树
         const left = dfs(node.left);
         const right = dfs(node.right);
 
+        // 如果当前节点是 p，标记已找到，并返回该节点
         if (node === p) {
             pExit = true;
             return node;
         }
+
+        // 如果当前节点是 q，标记已找到，并返回该节点
         if (node === q) {
             qExit = true;
             return node;
         }
 
+        // 如果左子树和右子树都找到了目标节点之一，当前节点就是最近公共祖先
         if (left && right) return node;
+
+        // 如果只在一边找到，继续向上传递已找到的那个节点
         return left || right;
     }
 
     const ans = dfs(root);
+
+    // 如果 p 和 q 都存在于树中，返回最近公共祖先；否则返回 null
     return (pExit && qExit) ? ans : null;
 }
-
 </code></pre>
 
 
