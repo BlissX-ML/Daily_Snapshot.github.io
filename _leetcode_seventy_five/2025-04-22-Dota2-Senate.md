@@ -83,6 +83,7 @@ var predictPartyVictory = function(senate) {
     }
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

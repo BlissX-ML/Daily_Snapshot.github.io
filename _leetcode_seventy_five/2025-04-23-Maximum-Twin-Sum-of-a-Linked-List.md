@@ -77,6 +77,7 @@ There is only one node with a twin in the linked list having twin sum of 1 + 100
 <pre><code class="language-js">
 None
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

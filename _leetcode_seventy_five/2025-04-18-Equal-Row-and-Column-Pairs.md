@@ -82,6 +82,7 @@ var equalPairs = function(grid) {
     return count
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

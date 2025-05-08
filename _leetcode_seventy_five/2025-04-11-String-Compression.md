@@ -79,6 +79,7 @@ var compress = function(chars) {
     return s.split();
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

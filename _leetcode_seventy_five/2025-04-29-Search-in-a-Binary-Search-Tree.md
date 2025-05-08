@@ -66,6 +66,7 @@ var searchBST = function(root, val) {
     console.log(findMainNodes(root));
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

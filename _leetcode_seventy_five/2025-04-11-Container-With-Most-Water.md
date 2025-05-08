@@ -83,6 +83,7 @@ var maxArea = function(height) {
     return space * currentHeight
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

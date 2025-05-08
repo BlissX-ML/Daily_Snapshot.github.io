@@ -61,6 +61,7 @@ var uniqueOccurrences = function(arr) {
     }
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

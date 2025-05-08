@@ -68,6 +68,7 @@ var mergeAlternately = function(word1, word2) {
     return mergeWord;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

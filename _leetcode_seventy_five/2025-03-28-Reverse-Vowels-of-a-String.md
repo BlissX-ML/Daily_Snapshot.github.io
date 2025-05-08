@@ -71,6 +71,7 @@ var a = reverseVowels("IceCreAm");
 console.log(a);
 
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

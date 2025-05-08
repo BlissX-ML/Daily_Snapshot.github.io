@@ -58,6 +58,7 @@ var findMaxAverage = function(nums, k) {
     return average;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

@@ -49,6 +49,7 @@ var largestAltitude = function(gain) {
     return Math.max(...altitudes)
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

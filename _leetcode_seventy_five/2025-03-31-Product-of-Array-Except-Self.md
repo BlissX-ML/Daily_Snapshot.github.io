@@ -52,6 +52,7 @@ var productExceptSelf = function(nums) {
     return result
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

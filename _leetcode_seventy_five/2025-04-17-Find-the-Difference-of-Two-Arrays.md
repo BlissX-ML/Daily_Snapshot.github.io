@@ -84,7 +84,7 @@ var findDifference = function(nums1, nums2) {
     return [diff1, diff2]
 };
 </code></pre>
-
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

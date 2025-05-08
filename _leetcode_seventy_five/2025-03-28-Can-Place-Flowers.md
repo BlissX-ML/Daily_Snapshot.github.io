@@ -59,6 +59,7 @@ var canPlaceFlowers = function(flowerbed, n) {
     return (maxPlaceFlowers - count >= n)
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">
@@ -84,6 +85,8 @@ var canPlaceFlowers = function(flowerbed, n) {
 };
 </code></pre>
 ![image]({{ "/assets/images/leetcode/Can-Place-Flowers.png" | relative_url }})
+
+<br />
 
 <pre><code class="language-js">
 var canPlaceFlowers = function(flowerbed, n) {

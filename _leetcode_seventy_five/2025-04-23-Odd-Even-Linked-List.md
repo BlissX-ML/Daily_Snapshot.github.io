@@ -73,6 +73,7 @@ var oddEvenList = function(head) {
     return head;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

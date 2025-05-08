@@ -78,6 +78,7 @@ var closeStrings = function(word1, word2) {
     return right === setWord2.size;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

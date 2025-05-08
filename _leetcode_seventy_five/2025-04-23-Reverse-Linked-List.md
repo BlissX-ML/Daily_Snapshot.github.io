@@ -72,6 +72,7 @@ var reverseList = function(head) {
     return reversed;
 }; 
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

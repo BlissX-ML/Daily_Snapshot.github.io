@@ -52,6 +52,7 @@ var increasingTriplet = function(nums) {
     return false;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

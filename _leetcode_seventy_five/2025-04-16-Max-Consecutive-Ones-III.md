@@ -62,6 +62,7 @@ var longestOnes = function(nums, k) {
     return maxLength
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

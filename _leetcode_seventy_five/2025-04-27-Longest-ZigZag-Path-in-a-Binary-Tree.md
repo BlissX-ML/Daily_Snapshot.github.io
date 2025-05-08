@@ -78,6 +78,7 @@ var longestZigZag = function(root) {
     judgeNodes(root, 0)
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

@@ -81,6 +81,7 @@ var leafSimilar = function(root1, root2) {
 
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

@@ -84,6 +84,7 @@ var maxLevelSum = function(root) {
     return maxLevel + 1;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

@@ -70,6 +70,7 @@ var maxVowels = function (s, k) {
     return maxCount;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

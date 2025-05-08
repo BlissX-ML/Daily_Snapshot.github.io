@@ -68,6 +68,7 @@ var longestSubarray = function(nums) {
     }
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

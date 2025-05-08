@@ -78,6 +78,7 @@ var lowestCommonAncestor = function(root, p, q) {
     return  judgeLCA(root, p, q, false, false);
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">

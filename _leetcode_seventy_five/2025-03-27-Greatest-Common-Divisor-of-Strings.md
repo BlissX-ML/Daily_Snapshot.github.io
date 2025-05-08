@@ -59,6 +59,7 @@ var gcdOfStrings = function(str1, str2) {
     }
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT** 
 <pre><code class="language-js">
@@ -71,6 +72,7 @@ var gcdOfStrings = function(str1, str2) {
     return result;
 };
 </code></pre>
+
 <pre><code class="language-js">
 var gcdOfStrings = function(str1, str2) {
     if(str1+str2 !== str2+str1){

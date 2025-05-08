@@ -70,6 +70,7 @@ var kidsWithCandies = function(candies, extraCandies) {
     return result;
 };
 </code></pre>
+<br />
 
 ## **Solution via Comments / GPT**
 <pre><code class="language-js">
