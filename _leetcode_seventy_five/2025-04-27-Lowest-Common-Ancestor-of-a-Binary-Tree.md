@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Num. 38 - Lowest Common Ancestor of a Binary Tree"
+title: "Num. 38 - Lowest Common Ancestor of a Binary Tree🙃"
 slug: "Num38"
 date: 2025-04-27 11:00:00 +0800
 permalink: /leetcode-75/Num38/
@@ -80,7 +80,7 @@ var lowestCommonAncestor = function(root, p, q) {
 </code></pre>
 <br />
 
-## **Solution via Comments / GPT**
+## **Solution via Comments / GPT**🙃🙃🙃
 <pre><code class="language-js">
 function lowestCommonAncestor(root, p, q) {
     let pExit = false, qExit = false;
@@ -88,7 +88,7 @@ function lowestCommonAncestor(root, p, q) {
     function dfs(node) {
         if (!node) return null;
 
-        // 递归遍历左子树和右子树
+        // 递归遍历左子树和右子树（先遍历才能够后续判断💦）
         const left = dfs(node.left);
         const right = dfs(node.right);
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Num. 36 - Path Sum III"
+title: "Num. 36 - Path Sum III🙃"
 slug: "Num36"
 date: 2025-04-25 10:00:00 +0800
 permalink: /leetcode-75/Num36/
@@ -74,7 +74,7 @@ var pathSum = function(root, targetSum) {
 </code></pre>
 <br />
 
-## **Solution via Comments / GPT**
+## **Solution via Comments / GPT**🙃🙃🙃
 <pre><code class="language-js">
 var pathSum = function(root, targetSum) {
     if(!root) return 0;
