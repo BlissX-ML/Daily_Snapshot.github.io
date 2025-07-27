@@ -2,13 +2,8 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #EDEDEB;
   line-height: $base-line-height;
   @extend %vertical-rhythm;
-
-  .highlighter-rouge & {
-    background: #EDEDEB;
-  }
 
   .c {
     color: #998;

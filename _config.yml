@@ -51,6 +51,8 @@ collections:
     output: true
     permalink: /leetcode-75/:slug/
 
+highlighter: none
+markdown: kramdown
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
 
