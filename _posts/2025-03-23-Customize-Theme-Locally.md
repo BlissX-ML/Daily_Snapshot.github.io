@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Copy Template Style and Modify Locally"
+title:  "复制模板样式并进行本地修改"
 date:   2025-03-23 20:04:39 +0800
 slug: "Customize-Theme-Locally"
 categories: jekyll update
